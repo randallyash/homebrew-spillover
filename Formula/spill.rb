@@ -1,25 +1,25 @@
 class Spill < Formula
   desc "Agentic AI TUI that spills over across local and hosted models when a tier stalls"
   homepage "https://github.com/randallyash/spillover"
-  version "0.3.0"
+  version "0.4.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/randallyash/spillover/releases/download/v0.3.0/spill-aarch64-apple-darwin.tar.xz"
-      sha256 "a25549ea63c21ed45b1d72fb730fdd5dbd99ce1261d6bdd8678e55424744dcaf"
+      url "https://github.com/randallyash/spillover/releases/download/v0.4.0/spill-aarch64-apple-darwin.tar.xz"
+      sha256 "39151f8cd818dd3b4079a4c2569d5a641cf1b5d6d274816008bca61b20829f82"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/randallyash/spillover/releases/download/v0.3.0/spill-x86_64-apple-darwin.tar.xz"
-      sha256 "bcd75716b4a322a0ae9d541efc2eaf6b00142f374c2485cb7c844991c8a6c721"
+      url "https://github.com/randallyash/spillover/releases/download/v0.4.0/spill-x86_64-apple-darwin.tar.xz"
+      sha256 "f241213117bea460893d9235f8929f54a90dc888d3cd30cb9398ca86cf50c467"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/randallyash/spillover/releases/download/v0.3.0/spill-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "a532c09b48fe280f1c652554b715b2f24835c8d73911f26bf4cdd0397e078caa"
+      url "https://github.com/randallyash/spillover/releases/download/v0.4.0/spill-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "3640b66e3e3789f3aa747e5e0d4d5f4a0f4c725fc9b59e818a430093777be30a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/randallyash/spillover/releases/download/v0.3.0/spill-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "c4f35319d8e107a5b2a747ff3861af0b8463857a9a88c1c4ff0644cc85244a1c"
+      url "https://github.com/randallyash/spillover/releases/download/v0.4.0/spill-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "e836adcea383d5ea59bfe347c0afc7189f02bbde99a7fc42f1e6144dd332beab"
     end
   end
   license "MIT"
